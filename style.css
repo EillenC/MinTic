@@ -1,0 +1,56 @@
+
+p {
+    color:black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 180px;
+    
+  }
+h1{
+  text-align: center;
+  color:rgb(255, 132, 0);
+  line-height: 5ex;
+  font-size: 8ex;
+}
+h2{
+  text-align: center;
+  color:rgb(209, 118, 8);
+}
+
+div{
+  text-align: justify;
+}
+/* Style the side navigation */
+.sidenav {
+  padding-top: 50px;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  overflow-x: hidden;
+}
+/* Side navigation links */
+.sidenav a {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  font-size: larger;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 250px;
+  padding-left: 30px;
+}
