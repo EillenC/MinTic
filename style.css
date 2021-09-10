@@ -25,24 +25,32 @@ div{
 }
 /* Style the side navigation */
 .sidenav {
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
   padding-top: 50px;
-  height: 100%;
+  padding-bottom: 0.5cm;
+  padding-right: 0.30cm;
+  height: 83%;
   width: 300px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: orange;
+  border-style: solid;
+  border-color: rgb(236, 103, 9);
+  background-color: none;
   overflow-x: hidden;
+  
 }
 /* Side navigation links */
 .sidenav a {
   color: rgb(255, 255, 255);
-  padding: 20px;
+  padding: 35px;
   text-decoration: none;
   display: block;
   font-size: large;
-  display: block;
+  background-color: rgb(219, 125, 10);
+  border-style: solid;
 }
 
 /* Change color on hover */
@@ -73,4 +81,11 @@ img{
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
   background-color: rgb(255, 255, 255);
 }
-
+.title{
+  margin-left: 0.6cm;
+  margin-top: 0.2cm;
+  margin-bottom: 0.5cm;
+  letter-spacing: 0.05cm;
+  border-color: seagreen;
+  text-shadow:  2px 2px 5px rgb(177, 87, 4);
+}
