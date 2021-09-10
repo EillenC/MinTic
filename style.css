@@ -1,25 +1,27 @@
 
 p {
     color:black;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
     margin-right: 150px;
     margin-left: 180px;
-    
   }
 h1{
   text-align: center;
   color:rgb(255, 132, 0);
   line-height: 5ex;
-  font-size: 8ex;
+  font-size: 6.5ex;
+  text-shadow:  2px 2px 5px rgb(190, 93, 2);
 }
 h2{
   text-align: center;
   color:rgb(209, 118, 8);
+  font-size: 4.7ex;
 }
 
 div{
   text-align: justify;
+  font-size: 3ex;
 }
 /* Style the side navigation */
 .sidenav {
@@ -39,7 +41,7 @@ div{
   padding: 20px;
   text-decoration: none;
   display: block;
-  font-size: larger;
+  font-size: large;
   display: block;
 }
 
@@ -51,9 +53,24 @@ div{
 
 /* Style the content */
 .content {
-  margin-left: 250px;
+  margin-left: 325px;
+  margin-right: 25px;
   padding-left: 30px;
+  border-style: solid;
+  border-color:rgb(209, 118, 8);
+  background-color: rgba(255, 132, 0, 0.247);
 }
 .aligncenter {
   text-align: center;
 }
+img{
+  margin-top: 2cm;
+  margin-left: 90px;
+  margin-bottom: 1cm;
+  padding:0.5cm;
+  border-style:solid;
+  border-color:chocolate;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  background-color: rgb(255, 255, 255);
+}
+
