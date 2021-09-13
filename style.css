@@ -30,12 +30,12 @@ div{
 }
 /* Style the side navigation */
 .sidenav {
-  background-image: url("FondoCaja.jpeg");
+  background-image: none;
   background-size: cover;
   margin-top: 0.5cm;
   margin-bottom: 0.5cm;
-  padding-top: 50px;
-  padding-bottom: 0.5cm;
+  padding-top: 5%;
+  padding-bottom: -35%;
   padding-right: 0.30cm;
   height: 83%;
   width: 300px;
@@ -45,18 +45,19 @@ div{
   left: 0;
   border-style: solid;
   border-color: rgb(236, 103, 9);
+  background-color: rgba(255, 248, 220, 0.603);
   overflow-x: hidden;
   
 }
 /* Side navigation links */
 .sidenav a {
   color: rgb(255, 255, 255);
-  padding: 35px;
+  padding: 30px;
   text-decoration: none;
   display: block;
   font-size: large;
-  background-color: rgb(219, 125, 10);
-  border-style: solid;
+  background-color: rgba(241, 139, 14, 0.541);
+  border-style: none;
 }
 
 /* Change color on hover */
@@ -69,7 +70,7 @@ div{
 .content {
   margin-left: 325px;
   margin-right: 25px;
-  padding-left: 30px;
+  padding: 30px;
   border-style: solid;
   border-color:rgb(209, 118, 8);
   background-color: rgba(255, 132, 0, 0.493);
@@ -78,8 +79,8 @@ div{
   text-align: center;
 }
 img{
+  
   margin-top: 2cm;
-  margin-left: 90px;
   margin-bottom: 1cm;
   padding:0.5cm;
   border-style:solid;
@@ -94,4 +95,8 @@ img{
   letter-spacing: 0.05cm;
   border-color: seagreen;
   text-shadow:  2px 2px 5px rgb(177, 87, 4);
+  letter-spacing: 0.10cm;
+}
+mark{
+  background-color: rgba(210, 105, 30, 0.589);
 }
