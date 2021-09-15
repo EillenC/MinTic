@@ -32,12 +32,10 @@ div{
 .sidenav {
   background-image: none;
   background-size: cover;
-  margin-top: 0.5cm;
-  margin-bottom: 0.5cm;
-  padding-top: 5%;
-  padding-bottom: -35%;
+  margin-top: 0.2cm;
+  padding-top: 20px;
+  padding-bottom: 10px;
   padding-right: 0.30cm;
-  height: 83%;
   width: 300px;
   position: fixed;
   z-index: 1;
@@ -47,6 +45,7 @@ div{
   border-color: rgb(236, 103, 9);
   background-color: rgba(255, 248, 220, 0.603);
   overflow-x: hidden;
+  height: 900px;
   
 }
 /* Side navigation links */
@@ -56,19 +55,17 @@ div{
   text-decoration: none;
   display: block;
   font-size: large;
-  background-color: rgba(241, 139, 14, 0.541);
   border-style: none;
 }
 
 /* Change color on hover */
 .sidenav a:hover {
-  background-color: #eee;
   color: black;
 }
 
 /* Style the content */
 .content {
-  
+  height: 870px;
   margin-left: 325px;
   margin-right: 25px;
   padding: 30px;
@@ -79,8 +76,7 @@ div{
 .aligncenter {
   text-align: center;
 }
-img{
-  
+.imgcentro{
   margin-top: 2cm;
   margin-bottom: 1cm;
   padding:0.5cm;
