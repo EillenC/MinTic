@@ -16,6 +16,7 @@ h1{
   line-height: 5ex;
   font-size: 6.5ex;
   text-shadow:  2px 2px 5px rgb(5, 5, 4);
+  -webkit-text-stroke: 0.7px black;
 }
 h2{
   text-align: center;
@@ -65,21 +66,21 @@ div{
 
 /* Style the content */
 .content {
-  height: 870px;
   margin-left: 335px;
   margin-right: 25px;
   padding: 30px;
   border-style: solid;
   border-color:rgb(209, 118, 8);
   background-color: rgba(255, 132, 0, 0.493);
+ 
 }
 .aligncenter {
   text-align: center;
 }
-.imgcentro{
-  margin-top: 2cm;
-  margin-bottom: 1cm;
-  padding:0.5cm;
+.imgmarco{
+  margin-top: 3cm;
+  margin-bottom: 3cm;
+  padding:0.2cm;
   border-style:solid;
   border-color:chocolate;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
@@ -96,4 +97,10 @@ div{
 }
 mark{
   background-color: rgba(210, 105, 30, 0.589);
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
 }
