@@ -29,6 +29,7 @@ div{
   text-align: justify;
   font-size: 3ex;
 }
+
 /* Style the side navigation */
 .sidenav {
   background-image: none;
@@ -102,4 +103,8 @@ mark{
 }
 .right{
   float: right;
+}
+.logobackground{
+  background-color: rgb(255, 160, 43);
+  border-color: rgb(214, 0, 168);
 }
